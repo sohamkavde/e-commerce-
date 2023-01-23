@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backery</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <!-- side display-block-->
+        <div class="sideNavigation">
+            <div>
+                <a href="#Home">Home</a>
+                <a href="#Services">Services</a>
+                <a href="#Products">Products</a>
+                <a href="#About">About us</a>
+                <a href="#Contact">Contact us</a>
+            </div>
+        </div>
+        <div class="ShowData">
+            <div class="CoverImage" id="Home">
+                <div class="saparate"></div>
+                <p>Welcome <br>
+                    Backery for you</p>
+                
+            </div>
+            <div class="Services" id="Services">
+                <div class="aboutdiv">Our Services</div>
+                <div class="serviceDetails"><b>Birthday Cake</b></div>
+                <div class="serviceDetails"><b>Aniversary Cake</b></div>
+                <div class="serviceDetails"><b>Marriage Cake</b></div>
+                <div class="serviceDetails"><b>All Cake</b></div>
+            </div>
+            <div class="Products" id="Products">                
+            </div>
+            <div class="About" id="About">
+                <b>About Us</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae expedita distinctio ullam dolorum, nihil placeat exercitationem recusandae ut qui, non ratione tenetur sequi consequatur illo provident tempore a dicta quam laborum ducimus sit accusamus iure excepturi porro! Deleniti fugiat incidunt et reprehenderit nam? Ut, expedita. <br><br>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aliquid quis voluptates, ipsum cumque esse repudiandae tenetur placeat atque sed quasi voluptas, enim, vitae culpa hic? Eaque autem asperiores nesciunt, doloremque sunt fuga iure quia inventore ipsum odio voluptas, ab cum ipsam eligendi repellat. Explicabo.</p>
+            </div>
+            <div class="Contact" id="Contact">
+                <div class="aboutdiv">Contact Us</div>
+                <div class="container">
+                    <form action="/action_page.php">
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="country">Country</label>
+                        </div>
+                        <div class="col-75">
+                          <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="subject">Subject</label>
+                        </div>
+                        <div class="col-75">
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <input type="submit" value="Submit">
+                      </div>
+                    </form>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bottomNavigation">
+        <a href="#Home"><span class="material-symbols-outlined">
+          home
+          </span><br> Home</a>
+        <a href="#Services"><span class="material-symbols-outlined">
+          info
+          </span><br>Services</a>
+        <a href="#Products"><span class="material-symbols-outlined">
+          production_quantity_limits
+          </span><br>Products</a>
+        <a href="#About"><span class="material-symbols-outlined">
+          assignment_ind
+          </span><br>About us</a>
+        <a href="#Contact"><span class="material-symbols-outlined">
+          contact_support
+          </span><br>Contact us</a>
+        <a href="tel:+917987686599"><span class="material-symbols-outlined">
+          ring_volume
+          </span><br>phone</a>
+    </div>
+    <!--  bottom navigation by default diplay none-->
+    <!-- Cover Image -->
+    <!-- Services -->
+    <!-- Products -->
+    <!-- About us -->
+    <!-- Contact us -->
+    <!-- Footer -->
+
+<script src="index.js"></script>
+</body>
+</html>
