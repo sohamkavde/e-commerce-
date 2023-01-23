@@ -294,9 +294,10 @@ input[type=submit]:hover {
     .bottomNavigation{
         display: block;
         display: flex;
+        font-size: 2vw;
     }
     .productDetails {
-        width: 45%;
+        width: 40%;
         height: 30%;
     }
     .col-25,
